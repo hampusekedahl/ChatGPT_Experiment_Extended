@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "You are given a string expression representing a Lisp-like expression to return the integer value of.
+Solve this programming problem as runtime and memory effecient as you can with Java "You are given a string expression representing a Lisp-like expression to return the integer value of.
 
 The syntax for these expressions is given as follows.
 

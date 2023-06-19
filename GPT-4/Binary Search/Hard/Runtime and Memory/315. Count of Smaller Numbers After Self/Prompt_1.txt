@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given an integer array nums, return an integer array counts where counts[i] is the number of smaller elements to the right of nums[i].
+Solve this programming problem as runtime and memory effecient as you can with Java "Given an integer array nums, return an integer array counts where counts[i] is the number of smaller elements to the right of nums[i].
 
  
 

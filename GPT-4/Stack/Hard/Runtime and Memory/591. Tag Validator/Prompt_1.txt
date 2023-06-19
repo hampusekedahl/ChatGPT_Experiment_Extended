@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given a string representing a code snippet, implement a tag validator to parse the code and return whether it is valid.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given a string representing a code snippet, implement a tag validator to parse the code and return whether it is valid.
 
 A code snippet is valid if all the following rules hold:
 

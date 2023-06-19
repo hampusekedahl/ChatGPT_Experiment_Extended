@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given a string s consisting of words and spaces, return the length of the last word in the string.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given a string s consisting of words and spaces, return the length of the last word in the string.
 
 A word is a maximal 
 substring

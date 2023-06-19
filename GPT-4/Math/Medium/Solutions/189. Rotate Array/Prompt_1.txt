@@ -1,4 +1,4 @@
-Solve this programming problem with C++ "Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+Solve this programming problem with Java "Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
  
 

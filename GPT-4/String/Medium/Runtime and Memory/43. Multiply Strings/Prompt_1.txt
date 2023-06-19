@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
 
 Note: You must not use any built-in BigInteger library or convert the inputs to integer directly.
 

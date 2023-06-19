@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given a string s and an array of strings words, return the number of words[i] that is a subsequence of s.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given a string s and an array of strings words, return the number of words[i] that is a subsequence of s.
 
 A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
 

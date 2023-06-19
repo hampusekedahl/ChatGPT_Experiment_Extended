@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Write an algorithm to determine if a number n is happy.
+Solve this programming problem as runtime and memory effecient as you can with Java "Write an algorithm to determine if a number n is happy.
 
 A happy number is a number defined by the following process:
 

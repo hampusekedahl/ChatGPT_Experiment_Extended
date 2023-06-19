@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given a string s, find the length of the longest 
+Solve this programming problem as runtime and memory effecient as you can with Java "Given a string s, find the length of the longest 
 substring
  without repeating characters.
 

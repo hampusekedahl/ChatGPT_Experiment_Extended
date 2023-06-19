@@ -1,4 +1,4 @@
-Solve this programming problem with C++ "Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Solve this programming problem with Java "Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 Symbol       Value
 I             1

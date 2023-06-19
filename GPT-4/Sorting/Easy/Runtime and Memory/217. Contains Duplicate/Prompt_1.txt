@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
  
 

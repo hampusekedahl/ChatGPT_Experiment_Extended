@@ -1,4 +1,4 @@
-Solve this programming problem with C++ "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+Solve this programming problem with Java "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
 Implement the MinStack class:
 

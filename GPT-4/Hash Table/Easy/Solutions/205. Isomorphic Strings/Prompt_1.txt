@@ -1,4 +1,4 @@
-Solve this programming problem with C++ "Given two strings s and t, determine if they are isomorphic.
+Solve this programming problem with Java "Given two strings s and t, determine if they are isomorphic.
 
 Two strings s and t are isomorphic if the characters in s can be replaced to get t.
 

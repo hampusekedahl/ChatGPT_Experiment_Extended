@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
+Solve this programming problem as runtime and memory effecient as you can with Java "Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
 
 '?' Matches any single character.
 '*' Matches any sequence of characters (including the empty sequence).

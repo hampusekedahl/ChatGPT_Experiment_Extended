@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "The set [1, 2, 3, ..., n] contains a total of n! unique permutations.
+Solve this programming problem as runtime and memory effecient as you can with Java "The set [1, 2, 3, ..., n] contains a total of n! unique permutations.
 
 By listing and labeling all of the permutations in order, we get the following sequence for n = 3:
 

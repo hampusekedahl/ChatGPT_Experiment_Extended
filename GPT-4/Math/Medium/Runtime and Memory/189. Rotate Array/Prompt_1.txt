@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
  
 

@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.
+Solve this programming problem as runtime and memory effecient as you can with Java "There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.
 
 You are giving candies to these children subjected to the following requirements:
 

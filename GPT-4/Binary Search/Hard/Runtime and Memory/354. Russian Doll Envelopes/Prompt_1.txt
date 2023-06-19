@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "You are given a 2D array of integers envelopes where envelopes[i] = [wi, hi] represents the width and the height of an envelope.
+Solve this programming problem as runtime and memory effecient as you can with Java "You are given a 2D array of integers envelopes where envelopes[i] = [wi, hi] represents the width and the height of an envelope.
 
 One envelope can fit into another if and only if both the width and height of one envelope are greater than the other envelope's width and height.
 

@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given a list of non-negative integers nums, arrange them such that they form the largest number and return it.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given a list of non-negative integers nums, arrange them such that they form the largest number and return it.
 
 Since the result may be very large, so you need to return a string instead of an integer.
 

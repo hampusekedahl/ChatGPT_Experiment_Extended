@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "You are given a 0-indexed array of unique strings words.
+Solve this programming problem as runtime and memory effecient as you can with Java "You are given a 0-indexed array of unique strings words.
 
 A palindrome pair is a pair of integers (i, j) such that:
 

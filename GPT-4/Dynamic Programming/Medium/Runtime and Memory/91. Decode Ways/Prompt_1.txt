@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "A message containing letters from A-Z can be encoded into numbers using the following mapping:
+Solve this programming problem as runtime and memory effecient as you can with Java "A message containing letters from A-Z can be encoded into numbers using the following mapping:
 
 'A' -> "1"
 'B' -> "2"

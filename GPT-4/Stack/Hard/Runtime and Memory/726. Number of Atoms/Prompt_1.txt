@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given a string formula representing a chemical formula, return the count of each atom.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given a string formula representing a chemical formula, return the count of each atom.
 
 The atomic element always starts with an uppercase character, then zero or more lowercase letters, representing the name.
 

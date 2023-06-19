@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "You are given a string s and an integer k. You can choose one of the first k letters of s and append it at the end of the string..
+Solve this programming problem as runtime and memory effecient as you can with Java "You are given a string s and an integer k. You can choose one of the first k letters of s and append it at the end of the string..
 
 Return the lexicographically smallest string you could have after applying the mentioned step any number of moves.
 

@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Convert a non-negative integer num to its English words representation.
+Solve this programming problem as runtime and memory effecient as you can with Java "Convert a non-negative integer num to its English words representation.
 
  
 

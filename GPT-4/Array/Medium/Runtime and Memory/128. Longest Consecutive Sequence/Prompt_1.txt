@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
 
 You must write an algorithm that runs in O(n) time.
 

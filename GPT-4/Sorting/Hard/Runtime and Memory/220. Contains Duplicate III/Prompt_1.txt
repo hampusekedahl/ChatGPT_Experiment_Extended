@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "You are given an integer array nums and two integers indexDiff and valueDiff.
+Solve this programming problem as runtime and memory effecient as you can with Java "You are given an integer array nums and two integers indexDiff and valueDiff.
 
 Find a pair of indices (i, j) such that:
 

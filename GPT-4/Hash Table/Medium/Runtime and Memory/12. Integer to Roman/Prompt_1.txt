@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Solve this programming problem as runtime and memory effecient as you can with Java "Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 Symbol       Value
 I             1

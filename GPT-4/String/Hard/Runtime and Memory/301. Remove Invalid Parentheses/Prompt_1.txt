@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given a string s that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given a string s that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid.
 
 Return a list of unique strings that are valid with the minimum number of removals. You may return the answer in any order.
 

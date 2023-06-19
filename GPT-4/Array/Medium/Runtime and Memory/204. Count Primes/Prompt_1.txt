@@ -1,4 +1,4 @@
-Solve this programming problem as runtime and memory effecient as you can with C++ "Given an integer n, return the number of prime numbers that are strictly less than n.
+Solve this programming problem as runtime and memory effecient as you can with Java "Given an integer n, return the number of prime numbers that are strictly less than n.
 
  
 

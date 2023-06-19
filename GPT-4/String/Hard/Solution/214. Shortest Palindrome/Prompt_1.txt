@@ -1,4 +1,4 @@
-Solve this programming problem with C++ "You are given a string s. You can convert s to a 
+Solve this programming problem with Java "You are given a string s. You can convert s to a 
 palindrome
  by adding characters in front of it.
 
