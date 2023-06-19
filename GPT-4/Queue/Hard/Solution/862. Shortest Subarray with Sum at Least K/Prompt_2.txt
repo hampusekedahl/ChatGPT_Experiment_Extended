@@ -1,0 +1,2 @@
+Line 12: Char 47: runtime error: signed integer overflow: -2147400000 + -100000 cannot be represented in type 'int' (solution.cpp)
+SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior prog_joined.cpp:21:47

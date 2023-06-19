@@ -1,0 +1,2 @@
+With input "s =
+"()())()"" output was "[]" but expected result was "["(())()","()()()"]".

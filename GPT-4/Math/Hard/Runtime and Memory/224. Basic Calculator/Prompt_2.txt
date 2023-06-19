@@ -1,0 +1,1 @@
+With input "1-(     -2)" output was "-1" but expected result was "3".

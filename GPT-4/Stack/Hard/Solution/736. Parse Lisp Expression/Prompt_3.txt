@@ -1,0 +1,27 @@
+Line 34: Char 40: error: no viable conversion from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' (aka 'char') to 'std::string' (aka 'basic_string<char>')
+                std::string var = eval(st.top(), scope, st);
+                                       ^~~~~~~~
+/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:7: note: candidate constructor template not viable: no known conversion from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' (aka 'char') to 'const char *' for 1st argument; take the address of the argument with &
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+      ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:452:7: note: candidate constructor not viable: no known conversion from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' (aka 'char') to 'const std::__cxx11::basic_string<char> &' for 1st argument
+      basic_string(const basic_string& __str)
+      ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:556:7: note: candidate constructor not viable: no known conversion from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' (aka 'char') to 'std::__cxx11::basic_string<char> &&' for 1st argument
+      basic_string(basic_string&& __str) noexcept
+      ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:583:7: note: candidate constructor not viable: no known conversion from '__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type' (aka 'char') to 'initializer_list<char>' for 1st argument
+      basic_string(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc())
+      ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:444:7: note: explicit constructor is not a candidate
+      basic_string(const _Alloc& __a) _GLIBCXX_NOEXCEPT
+      ^
+/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:654:2: note: explicit constructor is not a candidate
+        basic_string(const _Tp& __t, const _Alloc& __a = _Alloc())
+        ^
+Line 30: Char 26: note: passing argument to parameter 'token' here
+    int eval(std::string token, std::vector<std::unordered_map<std::string, int>>& scope, std::stack<char>& st) {
+                         ^
+Line 36: Char 30: warning: result of comparison against a string literal is unspecified (use an explicit string comparison function instead) [-Wstring-compare]
+                if (st.top() == "let") {
+                             ^  ~~~~~

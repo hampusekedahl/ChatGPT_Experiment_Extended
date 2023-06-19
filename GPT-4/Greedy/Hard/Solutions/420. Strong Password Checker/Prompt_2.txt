@@ -1,0 +1,2 @@
+With input "password = "QQQQQ""
+output was "1" but expected result was "2".
