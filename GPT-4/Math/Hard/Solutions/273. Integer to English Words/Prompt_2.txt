@@ -1,3 +1,0 @@
-Line 28: Char 41: error: indirection requires pointer operand ('int' invalid)
-                if (num < 1000 * (1000 ** i)) {
-                                        ^ ~
