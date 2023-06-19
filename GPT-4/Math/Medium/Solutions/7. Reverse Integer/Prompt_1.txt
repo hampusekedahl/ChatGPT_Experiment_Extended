@@ -21,8 +21,7 @@ Output: 21
 Constraints:
 
 -231 <= x <= 231 - 1". This is the code starting template "class Solution {
-public:
-    int reverse(int x) {
+    public int reverse(int x) {
         
     }
-};".
+}".

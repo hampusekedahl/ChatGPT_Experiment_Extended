@@ -30,8 +30,7 @@ Constraints:
 
 1 <= n <= 9
 1 <= k <= n!". This is the code starting template "class Solution {
-public:
-    string getPermutation(int n, int k) {
+    public String getPermutation(int n, int k) {
         
     }
-};".
+}".

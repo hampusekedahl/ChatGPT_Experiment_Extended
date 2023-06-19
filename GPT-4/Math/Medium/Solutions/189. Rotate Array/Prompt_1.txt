@@ -24,8 +24,7 @@ Constraints:
 1 <= nums.length <= 105
 -231 <= nums[i] <= 231 - 1
 0 <= k <= 105". This is the code starting template "class Solution {
-public:
-    void rotate(vector<int>& nums, int k) {
+    public void rotate(int[] nums, int k) {
         
     }
-};".
+}".
