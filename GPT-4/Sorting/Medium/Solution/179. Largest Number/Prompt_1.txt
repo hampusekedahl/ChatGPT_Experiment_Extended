@@ -18,8 +18,7 @@ Constraints:
 
 1 <= nums.length <= 100
 0 <= nums[i] <= 109". This is the code starting template "class Solution {
-public:
-    string largestNumber(vector<int>& nums) {
+    public String largestNumber(int[] nums) {
         
     }
-};".
+}".
