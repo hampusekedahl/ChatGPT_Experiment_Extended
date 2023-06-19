@@ -28,8 +28,7 @@ Constraints:
 1 <= wordDict[i].length <= 20
 s and wordDict[i] consist of only lowercase English letters.
 All the strings of wordDict are unique.". This is the code starting template "class Solution {
-public:
-    bool wordBreak(string s, vector<string>& wordDict) {
+    public boolean wordBreak(String s, List<String> wordDict) {
         
     }
-};".
+}".

@@ -25,8 +25,7 @@ nums.length == k
 1 <= nums[i].length <= 50
 -105 <= nums[i][j] <= 105
 nums[i] is sorted in non-decreasing order.". This is the code starting template "class Solution {
-public:
-    vector<int> smallestRange(vector<vector<int>>& nums) {
+    public int[] smallestRange(List<List<Integer>> nums) {
         
     }
-};".
+}".

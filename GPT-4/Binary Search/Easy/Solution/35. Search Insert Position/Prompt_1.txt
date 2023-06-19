@@ -24,8 +24,7 @@ Constraints:
 -104 <= nums[i] <= 104
 nums contains distinct values sorted in ascending order.
 -104 <= target <= 104". This is the code starting template "class Solution {
-public:
-    int searchInsert(vector<int>& nums, int target) {
+    public int searchInsert(int[] nums, int target) {
         
     }
-};".
+}".

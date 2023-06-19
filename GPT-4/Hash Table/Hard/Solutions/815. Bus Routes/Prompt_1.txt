@@ -26,8 +26,7 @@ All the values of routes[i] are unique.
 sum(routes[i].length) <= 105
 0 <= routes[i][j] < 106
 0 <= source, target < 106". This is the code starting template "class Solution {
-public:
-    int numBusesToDestination(vector<vector<int>>& routes, int source, int target) {
+    public int numBusesToDestination(int[][] routes, int source, int target) {
         
     }
-};".
+}".

@@ -23,8 +23,7 @@ Constraints:
 1 <= strs.length <= 104
 0 <= strs[i].length <= 100
 strs[i] consists of lowercase English letters.". This is the code starting template "class Solution {
-public:
-    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+    public List<List<String>> groupAnagrams(String[] strs) {
         
     }
-};".
+}".

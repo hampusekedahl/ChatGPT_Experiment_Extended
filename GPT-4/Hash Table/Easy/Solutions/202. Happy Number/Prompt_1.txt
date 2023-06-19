@@ -27,8 +27,7 @@ Output: false
 Constraints:
 
 1 <= n <= 231 - 1". This is the code starting template "class Solution {
-public:
-    bool isHappy(int n) {
+    public boolean isHappy(int n) {
         
     }
-};".
+}".

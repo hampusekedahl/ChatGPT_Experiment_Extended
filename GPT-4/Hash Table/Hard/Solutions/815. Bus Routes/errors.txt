@@ -1,0 +1,2 @@
+With input "routes =
+[[1,2,7],[3,6,7]]" output was "1" but expected result was "2".
