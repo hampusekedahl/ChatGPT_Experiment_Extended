@@ -28,8 +28,7 @@ Constraints:
 1 <= s.length <= 104
 s consists of only English letters and spaces ' '.
 There will be at least one word in s.". This is the code starting template "class Solution {
-public:
-    int lengthOfLastWord(string s) {
+    public int lengthOfLastWord(String s) {
         
     }
-};".
+}".

@@ -24,8 +24,7 @@ Constraints:
 
 1 <= k <= s.length <= 1000
 s consist of lowercase English letters.". This is the code starting template "class Solution {
-public:
-    string orderlyQueue(string s, int k) {
+    public String orderlyQueue(String s, int k) {
         
     }
-};".
+}".
