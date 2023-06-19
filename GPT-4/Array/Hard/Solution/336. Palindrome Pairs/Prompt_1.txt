@@ -33,8 +33,7 @@ Constraints:
 1 <= words.length <= 5000
 0 <= words[i].length <= 300
 words[i] consists of lowercase English letters.". This is the code starting template "class Solution {
-public:
-    vector<vector<int>> palindromePairs(vector<string>& words) {
+    public List<List<Integer>> palindromePairs(String[] words) {
         
     }
-};".
+}".

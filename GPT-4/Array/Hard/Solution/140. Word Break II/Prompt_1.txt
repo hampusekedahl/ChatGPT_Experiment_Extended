@@ -27,8 +27,7 @@ Constraints:
 s and wordDict[i] consist of only lowercase English letters.
 All the strings of wordDict are unique.
 Input is generated in a way that the length of the answer doesn't exceed 105.". This is the code starting template "class Solution {
-public:
-    vector<string> wordBreak(string s, vector<string>& wordDict) {
+    public List<String> wordBreak(String s, List<String> wordDict) {
         
     }
-};".
+}".
