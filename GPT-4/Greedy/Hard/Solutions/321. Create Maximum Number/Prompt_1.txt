@@ -27,8 +27,7 @@ n == nums2.length
 1 <= m, n <= 500
 0 <= nums1[i], nums2[i] <= 9
 1 <= k <= m + n". This is the code starting template "class Solution {
-public:
-    vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k) {
+    public int[] maxNumber(int[] nums1, int[] nums2, int k) {
         
     }
-};".
+}".
