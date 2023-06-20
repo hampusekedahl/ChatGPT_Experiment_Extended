@@ -24,7 +24,7 @@ class Solution {
                 for (; s.charAt(i) != ')';) {
                     String v = parse();
                     if (s.charAt(i) == ')') {
-                        val = temp.get(v);
+                        val = temp.containsKey(v) ? temp.get(v) : 0;
                         break;
                     }
                     int vv = eval(temp);
@@ -42,7 +42,7 @@ class Solution {
             }
         } else {
             String str = parse();
-            val = map.get(str);
+            val = map.containsKey(str) ? map.get(str) : 0;
         }
         i++;
         return val;
@@ -66,3 +66,4 @@ class Solution {
         return val;
     }
 }
+
