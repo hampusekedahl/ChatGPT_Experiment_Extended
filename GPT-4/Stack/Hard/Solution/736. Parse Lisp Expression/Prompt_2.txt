@@ -1,0 +1,3 @@
+Line 34: error: variable value might not have been initialized
+                return value;
+                       ^
