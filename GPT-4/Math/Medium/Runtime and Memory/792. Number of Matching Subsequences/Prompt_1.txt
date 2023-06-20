@@ -22,8 +22,7 @@ Constraints:
 1 <= words.length <= 5000
 1 <= words[i].length <= 50
 s and words[i] consist of only lowercase English letters.". This is the code starting template "class Solution {
-public:
-    int numMatchingSubseq(string s, vector<string>& words) {
+    public int numMatchingSubseq(String s, String[] words) {
         
     }
-};".
+}".

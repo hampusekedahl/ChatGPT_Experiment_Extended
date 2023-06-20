@@ -1,0 +1,3 @@
+With input "s =
+"abcde"words =
+["a","bb","acd","ace"]" output was "1" but expected result was "3".

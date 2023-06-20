@@ -19,8 +19,7 @@ Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
 Constraints:
 
 0 <= num <= 231 - 1". This is the code starting template "class Solution {
-public:
-    string numberToWords(int num) {
+    public String numberToWords(int num) {
         
     }
-};".
+}".
