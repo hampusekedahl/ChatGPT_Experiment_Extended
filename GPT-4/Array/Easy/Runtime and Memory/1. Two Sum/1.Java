@@ -1,0 +1,16 @@
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> numIndices = new HashMap<>();
+        
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (numIndices.containsKey(complement)) {
+                return new int[] {numIndices.get(complement), i};
+            }
+            numIndices.put(nums[i], i);
+        }
+        
+        // In case there is no solution, we can throw an exception or return null
+        throw new IllegalArgumentException("No two sum solution");
+    }
+}

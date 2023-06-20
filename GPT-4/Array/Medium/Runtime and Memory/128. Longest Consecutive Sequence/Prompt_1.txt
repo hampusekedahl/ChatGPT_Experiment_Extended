@@ -19,8 +19,7 @@ Constraints:
 
 0 <= nums.length <= 105
 -109 <= nums[i] <= 109". This is the code starting template "class Solution {
-public:
-    int longestConsecutive(vector<int>& nums) {
+    public int longestConsecutive(int[] nums) {
         
     }
-};".
+}".

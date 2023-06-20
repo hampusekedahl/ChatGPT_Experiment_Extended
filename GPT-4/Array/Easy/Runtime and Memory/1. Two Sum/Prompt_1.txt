@@ -27,8 +27,7 @@ Constraints:
 -109 <= nums[i] <= 109
 -109 <= target <= 109
 Only one valid answer exists.". This is the code starting template "class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         
     }
-};".
+}".
