@@ -20,8 +20,7 @@ Constraints:
 
 1 <= nums.length <= 105
 -109 <= nums[i] <= 109". This is the code starting template "class Solution {
-public:
-    bool containsDuplicate(vector<int>& nums) {
+    public boolean containsDuplicate(int[] nums) {
         
     }
-};".
+}".

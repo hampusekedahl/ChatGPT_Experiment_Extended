@@ -31,8 +31,7 @@ Constraints:
 -109 <= nums[i] <= 109
 1 <= indexDiff <= nums.length
 0 <= valueDiff <= 109". This is the code starting template "class Solution {
-public:
-    bool containsNearbyAlmostDuplicate(vector<int>& nums, int indexDiff, int valueDiff) {
+    public boolean containsNearbyAlmostDuplicate(int[] nums, int indexDiff, int valueDiff) {
         
     }
-};".
+}".
