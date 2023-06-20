@@ -24,8 +24,7 @@ Explanation: There are three ways to climb to the top.
 Constraints:
 
 1 <= n <= 45". This is the code starting template "class Solution {
-public:
-    int climbStairs(int n) {
+    public int climbStairs(int n) {
         
     }
-};".
+}".

@@ -46,8 +46,7 @@ Constraints:
 
 1 <= code.length <= 500
 code consists of English letters, digits, '<', '>', '/', '!', '[', ']', '.', and ' '.". This is the code starting template "class Solution {
-public:
-    bool isValid(string code) {
+    public boolean isValid(String code) {
         
     }
-};".
+}".

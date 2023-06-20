@@ -23,8 +23,7 @@ Constraints:
 1 <= nums.length <= 105
 -105 <= nums[i] <= 105
 1 <= k <= 109". This is the code starting template "class Solution {
-public:
-    int shortestSubarray(vector<int>& nums, int k) {
+    public int shortestSubarray(int[] nums, int k) {
         
     }
-};".
+}".

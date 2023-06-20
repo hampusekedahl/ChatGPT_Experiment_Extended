@@ -15,8 +15,7 @@ Output: ["()"]
 Constraints:
 
 1 <= n <= 8". This is the code starting template "class Solution {
-public:
-    vector<string> generateParenthesis(int n) {
+    public List<String> generateParenthesis(int n) {
         
     }
-};".
+}".
