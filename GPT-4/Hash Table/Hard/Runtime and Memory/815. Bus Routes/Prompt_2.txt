@@ -1,0 +1,4 @@
+With input "routes =
+[[2],[2,8]] source =
+8 target =
+2" output was "2" but expected result was "1".

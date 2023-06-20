@@ -25,8 +25,7 @@ Constraints:
 1 <= s.length <= 5 * 104
 t.length == s.length
 s and t consist of any valid ascii character.". This is the code starting template "class Solution {
-public:
-    bool isIsomorphic(string s, string t) {
+    public boolean isIsomorphic(String s, String t) {
         
     }
-};".
+}".
