@@ -26,8 +26,7 @@ Explanation:
 Constraints:
 
 0 <= n <= 105". This is the code starting template "class Solution {
-public:
-    vector<int> countBits(int n) {
+    public int[] countBits(int n) {
         
     }
-};".
+}".

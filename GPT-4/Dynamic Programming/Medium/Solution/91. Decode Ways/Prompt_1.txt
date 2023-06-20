@@ -37,8 +37,7 @@ Constraints:
 
 1 <= s.length <= 100
 s contains only digits and may contain leading zero(s).". This is the code starting template "class Solution {
-public:
-    int numDecodings(string s) {
+    public int numDecodings(String s) {
         
     }
-};".
+}".
