@@ -23,8 +23,7 @@ Constraints:
 1 <= s.length <= 25
 s consists of lowercase English letters and parentheses '(' and ')'.
 There will be at most 20 parentheses in s.". This is the code starting template "class Solution {
-public:
-    vector<string> removeInvalidParentheses(string s) {
+    public List<String> removeInvalidParentheses(String s) {
         
     }
-};".
+}".
