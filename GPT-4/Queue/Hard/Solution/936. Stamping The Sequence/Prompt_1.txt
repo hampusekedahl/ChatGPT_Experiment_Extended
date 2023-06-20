@@ -35,8 +35,7 @@ Constraints:
 
 1 <= stamp.length <= target.length <= 1000
 stamp and target consist of lowercase English letters.". This is the code starting template "class Solution {
-public:
-    vector<int> movesToStamp(string stamp, string target) {
+    public int[] movesToStamp(String stamp, String target) {
         
     }
-};".
+}".

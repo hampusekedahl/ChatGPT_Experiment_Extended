@@ -29,18 +29,18 @@ Constraints:
 1 <= t <= 109
 Each test case will call ping with strictly increasing values of t.
 At most 104 calls will be made to ping.". This is the code starting template "class RecentCounter {
-public:
-    RecentCounter() {
+
+    public RecentCounter() {
         
     }
     
-    int ping(int t) {
+    public int ping(int t) {
         
     }
-};
+}
 
 /**
  * Your RecentCounter object will be instantiated and called as such:
- * RecentCounter* obj = new RecentCounter();
- * int param_1 = obj->ping(t);
+ * RecentCounter obj = new RecentCounter();
+ * int param_1 = obj.ping(t);
  */".

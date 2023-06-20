@@ -20,8 +20,7 @@ Constraints:
 
 1 <= s.length <= 105
 s consists of only lowercase English letters.". This is the code starting template "class Solution {
-public:
-    int firstUniqChar(string s) {
+    public int firstUniqChar(String s) {
         
     }
-};".
+}".
