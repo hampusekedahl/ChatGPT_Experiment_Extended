@@ -23,12 +23,11 @@ Output: 1
 
 Constraints:
 
-1 <= bad <= n <= 231 - 1". This is the code starting template "// The API isBadVersion is defined for you.
-// bool isBadVersion(int version);
+1 <= bad <= n <= 231 - 1". This is the code starting template "/* The isBadVersion API is defined in the parent class VersionControl.
+      boolean isBadVersion(int version); */
 
-class Solution {
-public:
-    int firstBadVersion(int n) {
+public class Solution extends VersionControl {
+    public int firstBadVersion(int n) {
         
     }
-};".
+}".
