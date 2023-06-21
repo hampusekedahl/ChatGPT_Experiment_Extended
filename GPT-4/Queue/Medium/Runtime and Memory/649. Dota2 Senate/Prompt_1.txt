@@ -36,8 +36,7 @@ Constraints:
 n == senate.length
 1 <= n <= 104
 senate[i] is either 'R' or 'D'.". This is the code starting template "class Solution {
-public:
-    string predictPartyVictory(string senate) {
+    public String predictPartyVictory(String senate) {
         
     }
-};".
+}".
