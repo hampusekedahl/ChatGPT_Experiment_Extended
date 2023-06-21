@@ -1,3 +1,0 @@
-With input "nums =
-[1,2,3,4]" output was "true
-" but expected result was "false".

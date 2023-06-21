@@ -24,8 +24,7 @@ Constraints:
 1 <= envelopes.length <= 105
 envelopes[i].length == 2
 1 <= wi, hi <= 105". This is the code starting template "class Solution {
-public:
-    int maxEnvelopes(vector<vector<int>>& envelopes) {
+    public int maxEnvelopes(int[][] envelopes) {
         
     }
-};".
+}".

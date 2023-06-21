@@ -20,8 +20,7 @@ Constraints:
 
 1 <= nums.length <= 105
 0 <= nums[i] <= 105". This is the code starting template "class Solution {
-public:
-    int singleNonDuplicate(vector<int>& nums) {
+    public int singleNonDuplicate(int[] nums) {
         
     }
-};".
+}".

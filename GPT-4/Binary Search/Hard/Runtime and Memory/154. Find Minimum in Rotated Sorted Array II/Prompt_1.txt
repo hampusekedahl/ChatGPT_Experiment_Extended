@@ -26,8 +26,7 @@ n == nums.length
 1 <= n <= 5000
 -5000 <= nums[i] <= 5000
 nums is sorted and rotated between 1 and n times.". This is the code starting template "class Solution {
-public:
-    int findMin(vector<int>& nums) {
+    public int findMin(int[] nums) {
         
     }
-};".
+}".
