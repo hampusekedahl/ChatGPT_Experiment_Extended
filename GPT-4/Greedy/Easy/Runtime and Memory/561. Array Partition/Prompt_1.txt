@@ -23,8 +23,7 @@ Constraints:
 1 <= n <= 104
 nums.length == 2 * n
 -104 <= nums[i] <= 104". This is the code starting template "class Solution {
-public:
-    int arrayPairSum(vector<int>& nums) {
+    public int arrayPairSum(int[] nums) {
         
     }
-};".
+}".

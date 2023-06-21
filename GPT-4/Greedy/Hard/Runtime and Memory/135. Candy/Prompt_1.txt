@@ -26,8 +26,7 @@ Constraints:
 n == ratings.length
 1 <= n <= 2 * 104
 0 <= ratings[i] <= 2 * 104". This is the code starting template "class Solution {
-public:
-    int candy(vector<int>& ratings) {
+    public int candy(int[] ratings) {
         
     }
-};".
+}".

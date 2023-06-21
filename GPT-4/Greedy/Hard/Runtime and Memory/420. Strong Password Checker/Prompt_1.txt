@@ -30,8 +30,7 @@ Constraints:
 
 1 <= password.length <= 50
 password consists of letters, digits, dot '.' or exclamation mark '!'.". This is the code starting template "class Solution {
-public:
-    int strongPasswordChecker(string password) {
+    public int strongPasswordChecker(String password) {
         
     }
-};".
+}".

@@ -36,8 +36,7 @@ Constraints:
 n == gas.length == cost.length
 1 <= n <= 105
 0 <= gas[i], cost[i] <= 104". This is the code starting template "class Solution {
-public:
-    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+    public int canCompleteCircuit(int[] gas, int[] cost) {
         
     }
-};".
+}".

@@ -1,0 +1,1 @@
+With input ""1234567890123456Baaaa"" output was "1" but expected result was "2".
