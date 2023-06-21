@@ -31,8 +31,7 @@ Constraints:
 0 <= nums1[i], nums2[i] <= 104
 All integers in nums1 and nums2 are unique.
 All the integers of nums1 also appear in nums2.". This is the code starting template "class Solution {
-public:
-    vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         
     }
-};".
+}".

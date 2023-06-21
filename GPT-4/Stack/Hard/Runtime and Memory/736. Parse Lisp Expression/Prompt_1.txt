@@ -38,8 +38,7 @@ There are no leading or trailing spaces in expression.
 All tokens are separated by a single space in expression.
 The answer and all intermediate calculations of that answer are guaranteed to fit in a 32-bit integer.
 The expression is guaranteed to be legal and evaluate to an integer.". This is the code starting template "class Solution {
-public:
-    int evaluate(string expression) {
+    public int evaluate(String expression) {
         
     }
-};".
+}".

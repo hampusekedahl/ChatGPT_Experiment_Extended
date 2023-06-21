@@ -39,8 +39,7 @@ Constraints:
 1 <= formula.length <= 1000
 formula consists of English letters, digits, '(', and ')'.
 formula is always valid.". This is the code starting template "class Solution {
-public:
-    string countOfAtoms(string formula) {
+    public String countOfAtoms(String formula) {
         
     }
-};".
+}".
