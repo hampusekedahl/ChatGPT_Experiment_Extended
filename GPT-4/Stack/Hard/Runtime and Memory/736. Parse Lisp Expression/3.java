@@ -20,8 +20,15 @@ class Solution {
         // Create a new scope
         Map<String, Integer> map = new HashMap<>();
         scope.push(map);
-        String[] tokens = exp.substring(exp.charAt(1) == 'm' ? 6 : 5, exp.length() - 1).split(" ");
         
+        // To handle variable and function expressions separately
+        String[] tokens;
+        if (exp.charAt(1) == 'l') {  // let expression
+            tokens = exp.substring(5, exp.length() - 1).split(" ");
+        } else {  // add or mult expression
+            tokens = exp.substring(6, exp.length() - 1).split(" ");
+        }
+
         int res = 0;
         if (exp.charAt(1) == 'a')  // add expression
             res = eval(tokens[0], scope) + eval(tokens[1], scope);
@@ -38,3 +45,4 @@ class Solution {
         return res;
     }
 }
+

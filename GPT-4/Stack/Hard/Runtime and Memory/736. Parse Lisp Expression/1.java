@@ -1,76 +1,34 @@
+import java.util.*;
+
 class Solution {
-    int i, n;
-    String s;
-    Map<String, Integer> map = new HashMap<>();
-
     public int evaluate(String expression) {
-        i = 0;
-        n = expression.length();
-        s = expression;
-        map.clear();
-        return eval();
+        return eval(expression, new ArrayDeque<>());
     }
 
-    int eval() {
-        char ch = s.charAt(i++);
-        if (ch == '(') {
-            ch = s.charAt(i++);
-            if (ch == 'a') {  // add
-                i += 3;
-                int a = eval();
-                i++;  // skip ' '
-                int b = eval();
-                i++;  // skip ')'
-                return a + b;
-            } else if (ch == 'm') {  // mult
-                i += 4;
-                int a = eval();
-                i++;  // skip ' '
-                int b = eval();
-                i++;  // skip ')'
-                return a * b;
-            } else {  // let
-                i += 3;
-                Map<String, Integer> old = new HashMap<>(map);
-                while (s.charAt(i) != ')') {
-                    if (s.charAt(i) != ' ') {
-                        String var = parseVar();
-                        i++;  // skip ' '
-                        if (s.charAt(i) == '(' || Character.isDigit(s.charAt(i)) || s.charAt(i) == '-') {
-                            map.put(var, eval());
-                            i++;  // skip ' ' or ')'
-                        } else {
-                            map.put(var, map.get(parseVar()));
-                            i++;  // skip ' ' or ')'
-                        }
-                    } else {
-                        i++;  // skip ' '
-                    }
-                }
-                int val = map.get(parseVar());
-                map = old;
-                return val;
-            }
-        } else {
-            i--;  // roll back
-            return Character.isDigit(ch) || ch == '-' ? parseNum() : map.get(parseVar());
-        }
-    }
+    private int eval(String exp, Deque<Map<String, Integer>> scope) {
+        if (Character.isDigit(exp.charAt(0)) || exp.charAt(0) == '-')
+            return Integer.parseInt(exp);
+        else if (!exp.startsWith("("))
+            return scope.peek().get(exp);
 
-    String parseVar() {
-        int j = i;
-        while (s.charAt(i) != ' ' && s.charAt(i) != ')') {
-            i++;
+        // Create a new scope
+        Map<String, Integer> map = new HashMap<>();
+        scope.push(map);
+        String[] tokens = exp.substring(exp.charAt(1) == 'm' ? 6 : 5, exp.length() - 1).split(" ");
+        
+        int res = 0;
+        if (exp.charAt(1) == 'a')  // add expression
+            res = eval(tokens[0], scope) + eval(tokens[1], scope);
+        else if (exp.charAt(1) == 'm')  // mult expression
+            res = eval(tokens[0], scope) * eval(tokens[1], scope);
+        else {  // let expression
+            for (int i = 0; i < tokens.length - 2; i += 2)
+                map.put(tokens[i], eval(tokens[i + 1], scope));
+            res = eval(tokens[tokens.length - 1], scope);
         }
-        return s.substring(j, i);
-    }
 
-    int parseNum() {
-        int j = i;
-        while (i < n && (s.charAt(i) != ' ' && s.charAt(i) != ')')) {
-            i++;
-        }
-        return Integer.parseInt(s.substring(j, i));
+        // Remove the scope
+        scope.pop();
+        return res;
     }
 }
-

@@ -1,0 +1,8 @@
+java.lang.StringIndexOutOfBoundsException: begin 5, end 3, length 4
+  at line 4602, java.base/java.lang.String.checkBoundsBeginEnd
+  at line 2705, java.base/java.lang.String.substring
+  at line 23, Solution.eval
+  at line 32, Solution.eval
+  at line 5, Solution.evaluate
+  at line 54, __DriverSolution__.__helper__
+  at line 84, __Driver__.main
