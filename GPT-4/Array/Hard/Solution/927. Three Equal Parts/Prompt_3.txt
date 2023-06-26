@@ -1,0 +1,2 @@
+With input "arr =
+[1,0,1,0,1]" output was "[-1,-1]" but expected result was "[0,3]".
