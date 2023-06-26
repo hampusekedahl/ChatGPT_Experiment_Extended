@@ -61,16 +61,19 @@ MATH
 - 9. Palindrome Number, https://leetcode.com/problems/palindrome-number/
 - 66. Plus One, https://leetcode.com/problems/plus-one/
 - 69. Sqrt(x), https://leetcode.com/problems/sqrtx/
+- 67. Add Binary, https://leetcode.com/problems/add-binary/
 
 * MEDIUM:
 - 7. Reverse Integer, https://leetcode.com/problems/reverse-integer/
 - 189. Rotate Array, https://leetcode.com/problems/rotate-array/
 - 792. Number of Matching Subsequences, https://leetcode.com/problems/number-of-matching-subsequences/
+- 241. Different Ways to Add Parentheses, https://leetcode.com/problems/different-ways-to-add-parentheses/
 
 * HARD:
 - 60. Permutation Sequence, https://leetcode.com/problems/permutation-sequence/
 - 224. Basic Calculator, https://leetcode.com/problems/basic-calculator/
 - 273. Integer to English Words, https://leetcode.com/problems/integer-to-english-words/
+- 233. Number of Digit One, https://leetcode.com/problems/number-of-digit-one/
 
 HASH TABLE
 * EASY:

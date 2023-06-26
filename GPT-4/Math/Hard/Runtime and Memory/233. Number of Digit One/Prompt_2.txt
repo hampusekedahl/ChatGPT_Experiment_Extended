@@ -1,0 +1,1 @@
+With input "13" output was "56022784" but expected result was "6".
