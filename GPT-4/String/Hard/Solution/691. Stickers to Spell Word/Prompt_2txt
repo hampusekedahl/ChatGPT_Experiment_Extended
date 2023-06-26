@@ -1,0 +1,3 @@
+With input "stickers =
+["with","example","science"]target =
+"thehat"" output was "-1" but expected result was "3".

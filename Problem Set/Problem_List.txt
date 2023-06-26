@@ -23,16 +23,19 @@ STRING
 - 28. Find the Index of the First Occurrence in a String, https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 - 58. Length of Last Word, https://leetcode.com/problems/length-of-last-word/
 - 125. Valid Palindrome, https://leetcode.com/problems/valid-palindrome/
+- 657. Robot Return to Origin, https://leetcode.com/problems/robot-return-to-origin/
 
 * MEDIUM:
 - 3. Longest Substring Without Repeating Characters, https://leetcode.com/problems/longest-substring-without-repeating-characters/
 - 151. Reverse Words in a String, https://leetcode.com/problems/reverse-words-in-a-string/
 - 43. Multiply Strings, https://leetcode.com/problems/multiply-strings/
+- 721. Accounts Merge, https://leetcode.com/problems/accounts-merge/
 
 * HARD:
 - 301. Remove Invalid Parentheses, https://leetcode.com/problems/remove-invalid-parentheses/
 - 10. Regular Expression Matching, https://leetcode.com/problems/regular-expression-matching/
 - 214. Shortest Palindrome, https://leetcode.com/problems/shortest-palindrome/
+- 691. Stickers to Spell Word, https://leetcode.com/problems/stickers-to-spell-word/description/
 
 SORTING
 * EASY:
