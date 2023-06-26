@@ -138,16 +138,19 @@ GREEDY
 - 455. Assign Cookies, https://leetcode.com/problems/assign-cookies/
 - 561. Array Partition, https://leetcode.com/problems/array-partition/
 - 605. Can Place Flowers, https://leetcode.com/problems/can-place-flowers/
+- 942. DI String Match, https://leetcode.com/problems/di-string-match/
 
 * MEDIUM:
 - 122. Best Time to Buy and Sell Stock II, https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 - 134. Gas Station, https://leetcode.com/problems/gas-station/
 - 45. Jump Game II, https://leetcode.com/problems/jump-game-ii/
+- 397. Integer Replacement, https://leetcode.com/problems/integer-replacement/
 
 * HARD:
 - 135. Candy, https://leetcode.com/problems/candy/
 - 321. Create Maximum Number, https://leetcode.com/problems/create-maximum-number/
 - 420. Strong Password Checker, https://leetcode.com/problems/strong-password-checker/
+- 1363. Largest Multiple of Three, https://leetcode.com/problems/largest-multiple-of-three/
 
 STACK
 * EASY:

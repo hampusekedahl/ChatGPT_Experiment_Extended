@@ -1,0 +1,2 @@
+With input "digits =
+[0,0,0,0,0,1]" output was ""00000"" but expected result was ""0"".

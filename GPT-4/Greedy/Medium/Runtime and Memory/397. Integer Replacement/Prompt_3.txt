@@ -1,0 +1,7 @@
+Line 11: error: incompatible types: possible lossy conversion from long to int
+            memo.put((long) n, 2 + Math.min(integerReplacement(((long) n + 1) / 2), integerReplacement(((long) n - 1) / 2)));
+                                                                              ^
+Line 11: error: incompatible types: possible lossy conversion from long to int
+            memo.put((long) n, 2 + Math.min(integerReplacement(((long) n + 1) / 2), integerReplacement(((long) n - 1) / 2)));
+                                                                                                                      ^
+2 errors
