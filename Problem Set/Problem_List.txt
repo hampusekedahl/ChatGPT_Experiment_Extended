@@ -42,16 +42,19 @@ SORTING
 - 217. Contains Duplicate, https://leetcode.com/problems/contains-duplicate/
 - 169. Majority Element, https://leetcode.com/problems/majority-element/
 - 389. Find the Difference, https://leetcode.com/problems/find-the-difference/
+- 349. Intersection of Two Arrays, https://leetcode.com/problems/intersection-of-two-arrays/
 
 * MEDIUM:
 - 75. Sort Colors, https://leetcode.com/problems/sort-colors/
 - 179. Largest Number, https://leetcode.com/problems/largest-number/
 - 611. Valid Triangle Number, https://leetcode.com/problems/valid-triangle-number/
+- 56. Merge Intervals, https://leetcode.com/problems/merge-intervals/
 
 * HARD:
 - 164. Maximum Gap, https://leetcode.com/problems/maximum-gap/
 - 899. Orderly Queue, https://leetcode.com/problems/orderly-queue/
 - 220. Contains Duplicate III, https://leetcode.com/problems/contains-duplicate-III/
+- 719. Find K-th Smallest Pair Distance, https://leetcode.com/problems/find-k-th-smallest-pair-distance/
 
 MATH
 * EASY:
