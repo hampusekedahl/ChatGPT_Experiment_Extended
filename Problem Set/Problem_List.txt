@@ -125,11 +125,13 @@ DYNAMIC PROGRAMMING
 - 22. Generate Parentheses, https://leetcode.com/problems/generate-parentheses/
 - 53. Maximum Subarray, https://leetcode.com/problems/maximum-subarray/
 - 91. Decode Ways, https://leetcode.com/problems/decode-ways/
+- 213. House Robber II, https://leetcode.com/problems/house-robber-ii/
 
 * HARD:
 - 32. Longest Valid Parentheses, https://leetcode.com/problems/longest-valid-parentheses/
 - 44. Wildcard Matching, https://leetcode.com/problems/wildcard-matching/
 - 72. Edit Distance, https://leetcode.com/problems/edit-distance/
+- 818. Race Car, https://leetcode.com/problems/race-car/
 
 GREEDY
 * EASY:
