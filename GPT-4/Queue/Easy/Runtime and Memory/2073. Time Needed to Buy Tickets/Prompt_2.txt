@@ -1,0 +1,1 @@
+With input "[2,3,2]" output was "2" but expected result was "6".
