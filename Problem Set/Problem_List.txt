@@ -157,16 +157,19 @@ STACK
 - 225. Implement Stack using Queues, https://leetcode.com/problems/implement-stack-using-queues/
 - 496. Next Greater Element I, https://leetcode.com/problems/next-greater-element-i/
 - 682. Baseball Game, https://leetcode.com/problems/baseball-game/
+- 20. Valid Parentheses, https://leetcode.com/problems/valid-parentheses/
 
 * MEDIUM:
 - 155. Min Stack, https://leetcode.com/problems/min-stack/
 - 71. Simplify Path, https://leetcode.com/problems/simplify-path/
 - 739. Daily Temperatures, https://leetcode.com/problems/daily-temperatures/
+- 385. Mini Parser, https://leetcode.com/problems/mini-parser/
 
 * HARD:
 - 736. Parse Lisp Expression, https://leetcode.com/problems/parse-lisp-expression/
 - 591. Tag Validator, https://leetcode.com/problems/tag-validator/
 - 726. Number of Atoms, https://leetcode.com/problems/number-of-atoms/
+- 895. Maximum Frequency Stack, https://leetcode.com/problems/maximum-frequency-stack/
 
 QUEUE
 * EASY:
