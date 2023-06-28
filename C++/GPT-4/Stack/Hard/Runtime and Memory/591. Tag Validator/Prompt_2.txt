@@ -1,0 +1,1 @@
+With input ""<DIV>This is the first line <![CDATA[<<<<<<<]]></DIV>"" output was "false" but expected result was "true".

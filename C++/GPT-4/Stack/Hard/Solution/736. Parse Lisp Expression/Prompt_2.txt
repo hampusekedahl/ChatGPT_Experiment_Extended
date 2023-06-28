@@ -1,0 +1,3 @@
+Line 34: Char 40: error: use of undeclared identifier 'st'
+                std::string var = eval(st.top(), scope);
+                                       ^

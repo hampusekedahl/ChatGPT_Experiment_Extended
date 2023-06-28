@@ -1,0 +1,7 @@
+Line 13: Char 43: error: non-const lvalue reference to type 'vector<...>' cannot bind to a temporary of type 'vector<...>'
+            vector<int> candidate = merge(maxSingleArray(nums1, i), maxSingleArray(nums2, k - i));
+                                          ^~~~~~~~~~~~~~~~~~~~~~~~
+Line 36: Char 36: note: passing argument to parameter 'nums1' here
+    vector<int> merge(vector<int>& nums1, vector<int>& nums2) {
+                                   ^
+1 error generated.

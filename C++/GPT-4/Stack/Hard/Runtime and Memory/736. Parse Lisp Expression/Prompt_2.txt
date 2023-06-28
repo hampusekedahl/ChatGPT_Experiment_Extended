@@ -1,0 +1,51 @@
+=================================================================
+==31==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffc05f1a370 at pc 0x0000003476e5 bp 0x7ffc05f19d70 sp 0x7ffc05f19d68
+READ of size 1 at 0x7ffc05f1a370 thread T0
+    #6 0x7f2605a3c0b2  (/lib/x86_64-linux-gnu/libc.so.6+0x270b2)
+Address 0x7ffc05f1a370 is located in stack of thread T0 at offset 592 in frame
+  This frame has 10 object(s):
+    [32, 40) '__endptr.i'
+    [64, 68) 'i'
+    [80, 112) 'cmd'
+    [144, 176) 'ref.tmp'
+    [208, 240) 'ref.tmp62'
+    [272, 304) 'ref.tmp91'
+    [336, 368) 'ref.tmp112'
+    [400, 456) 'newScope'
+    [496, 528) 'var'
+    [560, 592) 'value' <== Memory access at offset 592 overflows this variable
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+Shadow bytes around the buggy address:
+  0x100000bdb410: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100000bdb420: 00 00 00 00 f1 f1 f1 f1 f8 f2 f2 f2 04 f2 00 00
+  0x100000bdb430: 00 00 f2 f2 f2 f2 f8 f8 f8 f8 f2 f2 f2 f2 f8 f8
+  0x100000bdb440: f8 f8 f2 f2 f2 f2 f8 f8 f8 f8 f2 f2 f2 f2 f8 f8
+  0x100000bdb450: f8 f8 f2 f2 f2 f2 00 00 00 00 00 00 00 f2 f2 f2
+=>0x100000bdb460: f2 f2 00 00 00 00 f2 f2 f2 f2 00 00 00 00[f3]f3
+  0x100000bdb470: f3 f3 f3 f3 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100000bdb480: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100000bdb490: f1 f1 f1 f1 00 00 00 00 00 00 00 f3 f3 f3 f3 f3
+  0x100000bdb4a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100000bdb4b0: f1 f1 f1 f1 01 f2 00 00 00 00 f3 f3 f3 f3 f3 f3
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==31==ABORTING
