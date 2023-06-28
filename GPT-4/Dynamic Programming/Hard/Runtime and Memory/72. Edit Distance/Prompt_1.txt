@@ -31,8 +31,7 @@ Constraints:
 
 0 <= word1.length, word2.length <= 500
 word1 and word2 consist of lowercase English letters.". This is the code starting template "class Solution {
-public:
-    int minDistance(string word1, string word2) {
+    public int minDistance(String word1, String word2) {
         
     }
-};".
+}".
