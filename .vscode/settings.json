@@ -14,6 +14,8 @@
         "xiosbase": "cpp",
         "queue": "cpp",
         "stack": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "set": "cpp",
+        "algorithm": "cpp"
     }
 }
