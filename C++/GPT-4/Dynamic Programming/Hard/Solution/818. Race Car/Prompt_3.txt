@@ -1,0 +1,2 @@
+With input "target =
+6" output was "4" but expected result was "5".
