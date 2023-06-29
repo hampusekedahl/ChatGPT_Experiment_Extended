@@ -1,0 +1,1 @@
+With input "["WordFilter","f"] [[["apple"]],["a","e"]]" output was "[null,-1]" but expected result was "[null,0]".
